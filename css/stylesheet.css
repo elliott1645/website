@@ -1,0 +1,10 @@
+body {
+    
+}
+
+.contact {
+    text-align: center;
+    border-style: double;
+    border-color: red;
+    border-width: 5px;
+}
