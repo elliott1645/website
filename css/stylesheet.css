@@ -7,4 +7,18 @@ body {
     border-style: double;
     border-color: red;
     border-width: 5px;
+    animation-name: border_color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes border_color {
+    0% {border-color: red;}
+    25% {border-color: grey;}
+    50% {border-color: blue;}
+    75% {border-color: black;}
+    100% {border-color: yellow;}
+    
 }
