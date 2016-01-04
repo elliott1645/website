@@ -1,1 +1,1 @@
-# website
+This is the code for my website. All of the code will be put on Github
