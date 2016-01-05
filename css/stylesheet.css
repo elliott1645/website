@@ -34,4 +34,10 @@ body {
     padding: 5px;
 }
 
+#footer {
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
 </style>

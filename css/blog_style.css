@@ -1,5 +1,6 @@
+<style>
 body {
-    text-align: center;
+
 }
 
 #header {
@@ -9,3 +10,40 @@ body {
     text-align: center;
     padding: 5px;
 }
+
+section {
+    width: 600px;
+    float: left;
+    padding: 5px;
+    font-size: 115%
+}
+
+.contact {
+    border-style: double;
+    border-color: red;
+    border-width: 5px;
+    animation-name: border_color;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes border_color {
+    0% {border-color: red;}
+    16.66% {border-color: orange;}
+    33.32% {border-color: yellow;}
+    49.98% {border-color: green;}
+    66.64% {border-color: blue;}
+    83.3% {border-color: indigo;}
+    100% {border-color: violet;}
+
+}
+
+#footer {
+    clear: both;
+    padding: 5px;
+    text-align: center;
+		 
+}
+
+</style>
