@@ -25,20 +25,16 @@ body {
     66.64% {border-color: blue;}
     83.3% {border-color: indigo;}
     100% {border-color: violet;}
-
 }
+
 
 #header {
     text-transform: uppercase;
+   //background-color: black;
     color: black;
     text-align: center;
     padding: 5px;
 }
 
-#footer {
-    clear: both;
-    text-align: center;
-    padding: 5px;
-}
 
 </style>

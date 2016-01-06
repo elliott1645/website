@@ -2,10 +2,6 @@
 
 {}
 
-body {
-    background-color: #b7d1c4;
-}
-
 .contact {
     text-align: center;
     border-style: double;
@@ -25,9 +21,8 @@ body {
     66.64% {border-color: blue;}
     83.3% {border-color: indigo;}
     100% {border-color: violet;}
-
 }
-
+    
 #header {
     text-transform: uppercase;
     color: black;
@@ -39,6 +34,10 @@ body {
     clear: both;
     text-align: center;
     padding: 5px;
+}
+
+body {
+    background-color: #b7d1c4;
 }
 
 </style>

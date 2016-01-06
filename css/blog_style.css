@@ -1,11 +1,13 @@
 <style>
-body {
 
+{}
+
+body {
+    background-color: #b7d1c4;
 }
 
 #header {
     text-transform: uppercase;
-    Background-color: blue;
     color: black;
     text-align: center;
     padding: 5px;
@@ -43,7 +45,6 @@ section {
     clear: both;
     padding: 5px;
     text-align: center;
-		 
 }
 
 </style>
